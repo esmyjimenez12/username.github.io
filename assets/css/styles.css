@@ -1,15 +1,16 @@
 html, body{
-	font-size:16px;
+	font-size:18px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: 	#323047; 
+	font-family: 'Cardo', serif;
 }
 
 a {
-  color: #00d1b2;
+  color: 		#dfdfdf;
 }
 
 a:hover {
-  color: #00d1b2;
+  color: 	#09070D;
 }
 
 section{
@@ -18,19 +19,19 @@ section{
 }
 
 .section-1 {
-	background: #063647;
+	background: 	#323047;
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: #09070D;
 }
 
 .section-3 {
-	background-color: #0E282E;
+	background-color: #5D5985;
 }
 
 .section-4 {
-	background-color: #063647;
+	background-color: #323047;
 	padding: 0.2rem;
 }
 
@@ -48,12 +49,13 @@ a.nav-item:hover {
 }
 
 .intro-description{
-	padding-top: 1rem;
+	padding-top: 1rem; 
+
 }
 
 .social-container img{
 	max-width:100%;
-	max-height:175px;
+	max-height:50px;
 	margin-bottom:15px;
 }
 
@@ -61,6 +63,7 @@ a.nav-item:hover {
 	margin: 0 auto 1rem auto;
 	max-height: 256px;
 	max-width: 256px;
+	padding-bottom: 2rem;
 }
 
 .project-text {
@@ -70,10 +73,12 @@ a.nav-item:hover {
 .box {
 	background-color: transparent;
 	border: 2px solid rgba(7, 59, 79, 0.5);
+	border-color: white;  
 }
 
 .title {
 	color: #fff;
+	max-height: 80px;
 	text-align: left;
 	margin-bottom: 2rem;
 }

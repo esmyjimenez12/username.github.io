@@ -57,6 +57,7 @@ a.nav-item:hover {
 	max-width:100%;
 	max-height:50px;
 	margin-bottom:15px;
+	border-radius: 75%;
 }
 
 .project-figure {
